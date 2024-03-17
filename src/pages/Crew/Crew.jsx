@@ -12,7 +12,7 @@ const Crew = () => {
       name: "DOUGLAS HURLEY",
       about:
         "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.",
-      image: "../../../src/assets/commander.png",
+      image: "../../../public/commander.png",
     },
 
     {
@@ -20,7 +20,7 @@ const Crew = () => {
       name: "MARK SHUTTLEWORTH",
       about:
         "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.",
-      image: "../../../src/assets/mission.png",
+      image: "../../../public/mission.png",
     },
 
     {
@@ -28,7 +28,7 @@ const Crew = () => {
       name: "VICTOR GLOVER",
       about:
         "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.",
-      image: "../../../src/assets/pilot.png",
+      image: "../../../public/pilot.png",
     },
 
     {
@@ -36,7 +36,7 @@ const Crew = () => {
       name: "ANOUSHEN ANSARI",
       about:
         "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.",
-      image: "../../../src/assets/flightengine.png",
+      image: "../../../public/flightengine.png",
     },
   ];
 

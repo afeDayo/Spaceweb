@@ -87,6 +87,7 @@
 
 .crewmem img {
   height: 640px;
+  margin-top: 4px;
 }
 
 /* ============================================= */
@@ -153,6 +154,7 @@
   .crewmem img {
     width: 100%;
     height: 100%;
+    margin-top: 0;
   }
 
   .crewbod p {
@@ -355,6 +357,7 @@
   .crewmem img {
     width: 70%;
     height: 100%;
+    margin-top: 0;
   }
 
   .crewbod {

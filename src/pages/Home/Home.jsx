@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Home.css";
 import dmainbk from "../../assets/dmainbk.jpg";
 import mdhomebk from "../../assets/mdhomebk.jpg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -52,10 +53,10 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="homeex">
+        <Link to="/destination" className="homeex">
           <h3 className="m-0">EXPLORE</h3>
           <div className="hoverex"></div>
-        </div>
+        </Link>
       </div>
       <div className={`md-homebk ${getBackground()}`}>
         <img src={mdhomebk} alt="" />
