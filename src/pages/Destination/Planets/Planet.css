@@ -1,0 +1,694 @@
+.allplannn {
+  position: relative;
+  z-index: 1;
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 107px;
+}
+
+.bkden {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.plantexx {
+  text-align: start;
+  margin-top: 20px;
+}
+
+.planeach h1 {
+  font-size: 100px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+/* =================================== */
+
+.sunn {
+  width: 550px;
+  height: 550px;
+}
+
+.marss {
+  width: 445px;
+  height: 445px;
+}
+
+.mercuryy {
+  width: 445px;
+  height: 445px;
+}
+
+.venues {
+  width: 445px;
+  height: 445px;
+}
+
+.jupitaa {
+  width: 445px;
+  height: 445px;
+}
+
+.saturno {
+  width: 545px;
+  height: 300px;
+}
+
+.urarara {
+  width: 445px;
+  height: 445px;
+}
+
+.nepatun {
+  width: 445px;
+  height: 445px;
+}
+
+.pluoo {
+  width: 445px;
+  height: 445px;
+}
+
+.iooo {
+  width: 445px;
+  height: 445px;
+}
+
+.mooon {
+  width: 445px;
+  height: 445px;
+}
+
+.ganny {
+  width: 445px;
+  height: 445px;
+}
+
+.callima {
+  width: 445px;
+  height: 445px;
+}
+
+.titis {
+  width: 445px;
+  height: 445px;
+}
+
+.enclloo {
+  width: 445px;
+  height: 445px;
+}
+
+.triii {
+  width: 445px;
+  height: 445px;
+}
+
+.proxicb {
+  width: 445px;
+  height: 445px;
+}
+
+.celeb {
+  width: 445px;
+  height: 445px;
+}
+
+.erika {
+  width: 445px;
+  height: 445px;
+}
+
+/* ======================================== */
+
+.planp p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #d0d6f9;
+  padding-right: 180px;
+  margin-bottom: 50px;
+}
+
+.planhr {
+  width: 444px;
+  color: rgb(167, 165, 165);
+}
+
+.navplan {
+  margin-top: 25px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 80px;
+}
+
+.navplan h5 {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2.36px;
+  color: #d0d6f9;
+}
+
+.navplan h3 {
+  font-size: 28px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+/* ================================================== */
+
+@media screen and (max-width: 1115px) and (min-width: 991px) {
+  .allplannn {
+    margin-top: 100px;
+    gap: 80px;
+  }
+
+  .sunn {
+    width: 445px;
+    height: 445px;
+  }
+
+  .marss {
+    width: 400px;
+    height: 400px;
+  }
+
+  .mercuryy {
+    width: 400px;
+    height: 400px;
+  }
+
+  .venues {
+    width: 400px;
+    height: 400px;
+  }
+
+  .jupitaa {
+    width: 400px;
+    height: 400px;
+  }
+
+  .saturno {
+    width: 445px;
+    height: 250px;
+  }
+
+  .urarara {
+    width: 400px;
+    height: 400px;
+  }
+
+  .nepatun {
+    width: 400px;
+    height: 400px;
+  }
+
+  .pluoo {
+    width: 400px;
+    height: 400px;
+  }
+
+  .iooo {
+    width: 400px;
+    height: 400px;
+  }
+
+  .mooon {
+    width: 400px;
+    height: 400px;
+  }
+
+  .ganny {
+    width: 400px;
+    height: 400px;
+  }
+
+  .callima {
+    width: 400px;
+    height: 400px;
+  }
+
+  .titis {
+    width: 400px;
+    height: 400px;
+  }
+
+  .enclloo {
+    width: 400px;
+    height: 400px;
+  }
+
+  .triii {
+    width: 400px;
+    height: 400px;
+  }
+
+  .proxicb {
+    width: 400px;
+    height: 400px;
+  }
+
+  .celeb {
+    width: 400px;
+    height: 400px;
+  }
+
+  .erika {
+    width: 400px;
+    height: 400px;
+  }
+
+  .planp p {
+    padding-right: 100px;
+    font-size: 16px;
+  }
+
+  .planhr {
+    width: 300px;
+  }
+
+  .planeach h1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 769px) {
+  .allplannn {
+    margin-top: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+  }
+
+  .plantexx {
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .planeach h1 {
+    font-size: 80px;
+  }
+
+  /* =================================== */
+
+  .sunn {
+    width: 345px;
+    height: 345px;
+  }
+
+  .marss {
+    width: 300px;
+    height: 300px;
+  }
+
+  .mercuryy {
+    width: 300px;
+    height: 300px;
+  }
+
+  .venues {
+    width: 300px;
+    height: 300px;
+  }
+
+  .jupitaa {
+    width: 300px;
+    height: 300px;
+  }
+
+  .saturno {
+    width: 345px;
+    height: 200px;
+  }
+
+  .urarara {
+    width: 300px;
+    height: 300px;
+  }
+
+  .nepatun {
+    width: 300px;
+    height: 300px;
+  }
+
+  .pluoo {
+    width: 300px;
+    height: 300px;
+  }
+
+  .iooo {
+    width: 300px;
+    height: 300px;
+  }
+
+  .mooon {
+    width: 300px;
+    height: 300px;
+  }
+
+  .ganny {
+    width: 300px;
+    height: 300px;
+  }
+
+  .callima {
+    width: 300px;
+    height: 300px;
+  }
+
+  .titis {
+    width: 300px;
+    height: 300px;
+  }
+
+  .enclloo {
+    width: 300px;
+    height: 300px;
+  }
+
+  .triii {
+    width: 300px;
+    height: 300px;
+  }
+
+  .proxicb {
+    width: 300px;
+    height: 300px;
+  }
+
+  .celeb {
+    width: 300px;
+    height: 300px;
+  }
+
+  .erika {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* ======================================== */
+
+  .planp p {
+    font-size: 16px;
+    line-height: 28px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+    width: 573px;
+  }
+
+  .planhr {
+    margin: 0 auto;
+  }
+
+  .navplan {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
+  .allplannn {
+    margin-top: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+  }
+
+  .plantexx {
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .planeach h1 {
+    font-size: 80px;
+  }
+
+  /* =================================== */
+
+  .sunn {
+    width: 345px;
+    height: 345px;
+  }
+
+  .marss {
+    width: 300px;
+    height: 300px;
+  }
+
+  .mercuryy {
+    width: 300px;
+    height: 300px;
+  }
+
+  .venues {
+    width: 300px;
+    height: 300px;
+  }
+
+  .jupitaa {
+    width: 300px;
+    height: 300px;
+  }
+
+  .saturno {
+    width: 345px;
+    height: 200px;
+  }
+
+  .urarara {
+    width: 300px;
+    height: 300px;
+  }
+
+  .nepatun {
+    width: 300px;
+    height: 300px;
+  }
+
+  .pluoo {
+    width: 300px;
+    height: 300px;
+  }
+
+  .iooo {
+    width: 300px;
+    height: 300px;
+  }
+
+  .mooon {
+    width: 300px;
+    height: 300px;
+  }
+
+  .ganny {
+    width: 300px;
+    height: 300px;
+  }
+
+  .callima {
+    width: 300px;
+    height: 300px;
+  }
+
+  .titis {
+    width: 300px;
+    height: 300px;
+  }
+
+  .enclloo {
+    width: 300px;
+    height: 300px;
+  }
+
+  .triii {
+    width: 300px;
+    height: 300px;
+  }
+
+  .proxicb {
+    width: 300px;
+    height: 300px;
+  }
+
+  .celeb {
+    width: 300px;
+    height: 300px;
+  }
+
+  .erika {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* ======================================== */
+
+  .planp p {
+    font-size: 16px;
+    line-height: 28px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+    width: 473px;
+  }
+
+  .planhr {
+    margin: 0 auto;
+  }
+
+  .navplan {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 575px) and (min-width: 360px) {
+  .allplannn {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .plantexx {
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .planeach h1 {
+    font-size: 56px;
+  }
+
+  /* =================================== */
+
+  .sunn {
+    width: 215px;
+    height: 215px;
+  }
+
+  .marss {
+    width: 170px;
+    height: 170px;
+  }
+
+  .mercuryy {
+    width: 170px;
+    height: 170px;
+  }
+
+  .venues {
+    width: 170px;
+    height: 170px;
+  }
+
+  .jupitaa {
+    width: 170px;
+    height: 170px;
+  }
+
+  .saturno {
+    width: 215px;
+    height: 120px;
+  }
+
+  .urarara {
+    width: 170px;
+    height: 170px;
+  }
+
+  .nepatun {
+    width: 170px;
+    height: 170px;
+  }
+
+  .pluoo {
+    width: 170px;
+    height: 170px;
+  }
+
+  .iooo {
+    width: 170px;
+    height: 170px;
+  }
+
+  .mooon {
+    width: 170px;
+    height: 170px;
+  }
+
+  .ganny {
+    width: 170px;
+    height: 170px;
+  }
+
+  .callima {
+    width: 170px;
+    height: 170px;
+  }
+
+  .titis {
+    width: 170px;
+    height: 170px;
+  }
+
+  .enclloo {
+    width: 170px;
+    height: 170px;
+  }
+
+  .triii {
+    width: 170px;
+    height: 170px;
+  }
+
+  .proxicb {
+    width: 170px;
+    height: 170px;
+  }
+
+  .celeb {
+    width: 170px;
+    height: 170px;
+  }
+
+  .erika {
+    width: 170px;
+    height: 170px;
+  }
+
+  /* ======================================== */
+
+  .planp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .planp p {
+    font-size: 15px;
+    line-height: 25px;
+    padding-right: 0;
+    margin-bottom: 30px;
+    width: 327px;
+   
+  }
+
+  .planhr {
+    margin: 0 auto;
+    width: 327px;
+  }
+
+  .navplan {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .bkden img {
+    height: 900px;
+  }
+}

@@ -1,0 +1,220 @@
+.spacenav {
+  display: flex;
+  justify-content: start;
+  position: relative;
+  z-index: 2;
+}
+
+.mainlogo {
+  margin-left: 55px;
+  margin-top: 64px;
+}
+
+.spacebar {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10%;
+  background-color: #ffffff0a;
+  backdrop-filter: blur(15px);
+  margin-top: 2.8%;
+  margin-left: 35%;
+  height: auto;
+  width: 65%;
+}
+
+.spacebar a {
+  margin: 38.5px 0;
+  font-size: 16px;
+  font-weight: 400px;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+}
+
+.spacebar a:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -38px;
+  width: 100%;
+  height: 3px;
+  background-color: gray;
+}
+
+.spacebar a:active::after,
+.spacebar a:active::after,
+.spacebar a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -38px;
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+.spacebar a span {
+  font-weight: 700;
+}
+
+.spacebar .spacehome {
+  margin-left: 10%;
+}
+
+/* .spacebar .spacetech {
+  margin-right: 100%;
+} */
+
+.spacenav .line {
+  position: absolute;
+  top: 73.5px;
+  left: 147px;
+}
+
+.spacenav .line img {
+  width: 460px;
+}
+
+/* Media query for mini-laptops */
+@media screen and (max-width: 1115px) and (min-width: 992px) {
+  .spacebar {
+    margin-top: 0;
+  }
+
+  .mainlogo {
+    margin-left: 39px;
+    margin-top: 24px;
+  }
+
+  .spacebar a span {
+    display: none;
+  }
+
+  .spacenav .line {
+    display: none;
+  }
+}
+
+/* Media query for tablets */
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .spacebar {
+    margin-top: 0;
+    margin-left: 30%;
+    gap: 7%;
+  }
+
+  .mainlogo {
+    margin-left: 39px;
+    margin-top: 24px;
+  }
+
+  .spacebar a span {
+    display: none;
+  }
+
+  .spacebar a {
+    font-size: 14px;
+  }
+
+  .spacenav .line {
+    display: none;
+  }
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 767px) and (min-width: 360px) {
+  .spacenav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .spacenav .line {
+    display: none;
+  }
+
+  .mainlogo {
+    margin-left: 24px;
+    margin-top: 24px;
+  }
+
+  .mainlogo img {
+    width: 40px;
+  }
+
+  .nav {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+  }
+
+  .navbar-hamburger {
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 35px;
+    margin-right: 18px;
+  }
+
+  .navbar-dropdown {
+    position: absolute;
+    top: -6px;
+    right: 0;
+    width: 450%;
+    height: 770px;
+    background-color: #ffffff0a;
+    backdrop-filter: blur(15px);
+    z-index: 4;
+  }
+
+  .navbar-dropdown ul {
+    list-style-type: none;
+    padding: 10px 0;
+    margin-top: 118px;
+    text-align: start;
+  }
+
+  .navbar-dropdown li {
+    padding: 15px;
+    padding-left: 40px;
+  }
+
+  .navbar-dropdown a {
+    margin: 38.5px 0;
+    font-size: 16px;
+    font-weight: 400px;
+    letter-spacing: 2.7px;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .navbar-dropdown li:hover::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 3px;
+    height: 30px;
+    background-color: gray;
+  }
+
+  .navbar-dropdown li:active::after,
+  .navbar-dropdown li:active::after,
+  .navbar-dropdown li.active::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 3px;
+    height: 30px;
+    background-color: #ffffff;
+  }
+
+  .nav a span {
+    font-weight: 700;
+  }
+}

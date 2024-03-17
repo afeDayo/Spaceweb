@@ -1,0 +1,80 @@
+.cantbf {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.errorimg {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.errorimg img {
+  width: 100%;
+  height: 900px;
+}
+
+.earth img {
+  width: 345px;
+  margin-top: 80px;
+}
+
+.pnfoops {
+  margin-top: 30px;
+}
+
+.pnfoops h1 {
+  font-size: 150px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 10px;
+}
+
+.pnfoops h3 {
+  font-size: 50px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.pnfoops p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.pnfoops button {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: gray;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 575px) and (min-width: 360px) {
+  .errorimg img {
+    width: 100%;
+    height: 710px;
+  }
+
+  .earth img {
+    width: 200px;
+    margin-top: 80px;
+  }
+
+  .pnfoops h1 {
+    font-size: 100px;
+    letter-spacing: 5px;
+  }
+
+  .pnfoops h3 {
+    font-size: 25px;
+  }
+
+  .pnfoops p {
+    font-size: 15px;
+    padding: 0 40px;
+  }
+}

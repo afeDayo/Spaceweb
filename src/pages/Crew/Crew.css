@@ -1,0 +1,399 @@
+.cewcon {
+  position: relative;
+  z-index: 1;
+  margin-top: 76px;
+  margin-left: 155px;
+}
+
+.bkcrew {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.bkcrew img {
+  width: 100%;
+  height: 900px;
+}
+
+.pickcrew h4 {
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 4.72px;
+  color: #ffffff;
+  text-align: start;
+}
+
+.pickcrew span {
+  color: #d0d6f9;
+  opacity: 25%;
+}
+
+/* ======================================= */
+
+.carocon {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  width: 1190px;
+}
+
+.slidescon {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  transition: transform 1s ease-in-out;
+  overflow: hidden;
+}
+
+/* ========================================= */
+
+.slide {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1200px;
+  transition: transform 1s ease-in-out;
+}
+
+.crewbod {
+  text-align: start;
+  margin-top: 154px;
+}
+
+.crewbod h3 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 50.42%;
+  margin-bottom: 15px;
+}
+
+.crewbod h1 {
+  font-size: 53px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 27px;
+}
+
+.crewbod p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #d0d6f9;
+  line-height: 32px;
+  padding-right: 100px;
+}
+
+/* ========================================= */
+
+.crewmem img {
+  height: 640px;
+}
+
+/* ============================================= */
+
+.dotindi {
+  position: absolute;
+  bottom: 140px;
+  left: 60px;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff; /* Adjust as needed */
+  opacity: 17.44%;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dot:hover {
+  opacity: 50%;
+}
+
+.dot.active {
+  background-color: #ffffff;
+  opacity: 1; /* Adjust as needed */
+}
+
+.lastl {
+  display: none;
+}
+
+/* =============================================== */
+
+@media screen and (max-width: 1115px) and (min-width: 991px) {
+  .cewcon {
+    margin-top: 56px;
+    margin-left: 105px;
+  }
+
+  .bkcrew img {
+    height: 830px;
+  }
+
+  .carocon {
+    width: 870px;
+  }
+
+  .slide {
+    width: 880px;
+  }
+
+  .crewbod {
+    margin-top: 100px;
+  }
+
+  .crewmem img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .crewbod p {
+    font-size: 16px;
+    line-height: 28px;
+    padding-right: 50px;
+  }
+
+  .dotindi {
+    bottom: 100px;
+  }
+
+  .lastl {
+    display: none;
+  }
+}
+
+/* Media query for tablets */
+@media screen and (max-width: 991px) and (min-width: 769px) {
+  .cewcon {
+    margin-top: 40px;
+    margin-left: 38.5px;
+  }
+
+  .bkcrew img {
+    height: 1280px;
+  }
+
+  .pickcrew h4 {
+    font-size: 20px;
+    letter-spacing: 3.38px;
+  }
+
+  /* ======================================= */
+
+  .carocon {
+    width: 100%;
+    max-width: 991px;
+  }
+
+  /* ========================================= */
+
+  .slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 175px;
+    width: 768px;
+  }
+
+  .crewbod {
+    text-align: center;
+    margin-top: 64px;
+  }
+
+  .crewbod h3 {
+    font-size: 24px;
+  }
+
+  .crewbod h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .crewbod p {
+    font-size: 16px;
+    width: 458px;
+    line-height: 28px;
+    padding-right: 0;
+  }
+
+  .dotindi {
+    bottom: 750px;
+    left: 380px;
+    gap: 7px;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .lastl {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
+  .cewcon {
+    margin-top: 70px;
+    margin-left: 38.5px;
+  }
+
+  .bkcrew img {
+    height: 1280px;
+  }
+
+  .pickcrew h4 {
+    font-size: 20px;
+    letter-spacing: 3.38px;
+  }
+
+  /* ======================================= */
+
+  .carocon {
+    width: 100%;
+    max-width: 991px;
+  }
+
+  /* ========================================= */
+
+  .slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 180px;
+    width: 768px;
+  }
+
+  .crewbod {
+    text-align: center;
+    margin-top: 64px;
+  }
+
+  .crewbod h3 {
+    font-size: 24px;
+  }
+
+  .crewbod h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .crewbod p {
+    font-size: 16px;
+    width: 458px;
+    line-height: 28px;
+    padding-right: 0;
+  }
+
+  .dotindi {
+    bottom: 750px;
+    left: 380px;
+    gap: 7px;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .lastl {
+    display: none;
+  }
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 575px) and (min-width: 360px) {
+  .cewcon {
+    margin-top: 50px;
+    margin-left: 0;
+  }
+
+  .bkcrew img {
+    height: 770px;
+  }
+
+  .pickcrew h4 {
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    text-align: center;
+  }
+
+  /* ======================================= */
+
+  .carocon {
+    width: 100%;
+    max-width: 375px;
+    margin-top: 20px;
+  }
+
+  /* ========================================= */
+
+  .slide {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: center;
+    gap: 0px;
+    width: 375px;
+  }
+
+  .crewmem {
+    width: 327px;
+    height: 223px;
+  }
+
+  .crewmem img {
+    width: 70%;
+    height: 100%;
+  }
+
+  .crewbod {
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .crewbod h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .crewbod h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .crewbod p {
+    font-size: 15px;
+    width: 327px;
+    line-height: 25px;
+    padding-right: 0;
+  }
+
+  .dotindi {
+    bottom: 48%;
+    left: 50%;
+    gap: 7px;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .lastl {
+    position: absolute;
+    display: flex;
+    top: 44%;
+    left: 6%;
+  }
+}

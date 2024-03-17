@@ -1,0 +1,205 @@
+.dencon {
+  position: relative;
+  z-index: 1;
+  margin-top: 150px;
+}
+
+.bkden {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.bkden img {
+  width: 100%;
+  height: 900px;
+}
+
+.pickden h4 {
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 4.72px;
+  color: #ffffff;
+}
+
+.pickden span {
+  color: #d0d6f9;
+  opacity: 25%;
+}
+
+.denplan {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.solarone,
+.solartwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.solarone .div1,
+.solarone .div2,
+.solartwo .div3,
+.solartwo .div4 {
+  display: flex;
+  gap: 40px;
+}
+
+.solarone a,
+.solartwo a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+  position: relative;
+  cursor: pointer;
+}
+
+.solarone a:hover::after,
+.solartwo a:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 3px;
+  background-color: gray;
+}
+
+.solarone a:active::after,
+.solarone a:active::after,
+.solarone a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+.solartwo a:active::after,
+.solartwo a:active::after,
+.solartwo a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+/* Media query for tablets */
+@media screen and (max-width: 991px) and (min-width: 769px) {
+  .dencon {
+    margin-top: 100px;
+  }
+
+  .bkden img {
+    height: 1280px;
+  }
+
+  .denplan {
+    gap: 40px;
+    margin-top: 80px;
+  }
+
+  .solarone,
+  .solartwo {
+    gap: 20px;
+  }
+
+  .solarone .div1,
+  .solarone .div2,
+  .solartwo .div3,
+  .solartwo .div4 {
+    gap: 20px;
+  }
+
+  .solarone a,
+  .solartwo a {
+    letter-spacing: 2px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
+  .dencon {
+    margin-top: 70px;
+  }
+
+  .bkden img {
+    height: 1024px;
+  }
+
+  .denplan {
+    gap: 40px;
+    margin-top: 60px;
+  }
+
+  .solarone,
+  .solartwo {
+    gap: 150px;
+  }
+
+  .solarone .div1,
+  .solarone .div2,
+  .solartwo .div3,
+  .solartwo .div4 {
+    flex-direction: column;
+  }
+
+  .solarone a,
+  .solartwo a {
+    letter-spacing: 2px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 575px) and (min-width: 360px) {
+  .dencon {
+    margin-top: 50px;
+  }
+
+  .bkden img {
+    height: 770px;
+  }
+
+  .denplan {
+    gap: 40px;
+    margin-top: 40px;
+  }
+
+  .pickden h4 {
+    font-size: 16px;
+    letter-spacing: 2.7px;
+  }
+
+  .solarone,
+  .solartwo {
+    gap: 100px;
+  }
+
+  .solarone .div1,
+  .solarone .div2,
+  .solartwo .div3,
+  .solartwo .div4 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .solarone a,
+  .solartwo a {
+    letter-spacing: 2px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,314 @@
+.homecon {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  z-index: 1;
+  margin-top: 170px;
+  margin-left: 155px;
+  align-items: end;
+  gap: 250px;
+}
+
+.homewrite {
+  text-align: start;
+}
+
+.homebk {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homebk .dmainbk {
+  width: 100%;
+}
+
+.md-homebk img {
+  display: none;
+}
+
+.homewrite {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 40px;
+}
+
+.homewrite h4 {
+  font-size: 28px;
+  font-weight: 400;
+  color: #d0d6f9;
+  letter-spacing: 4.72px;
+}
+
+.homewrite p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #d0d6f9;
+  line-height: 32px;
+}
+
+.homewrite h1 {
+  font-size: 150px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.homeex {
+  position: relative;
+  display: inline-block;
+  width: 263.8px;
+  height: 263.8px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+
+.hoverex {
+  position: absolute;
+  display: none;
+  width: 440px;
+  height: 440px;
+  border-radius: 50%;
+  background-color: #ffffff1a;
+  right: -90px;
+  bottom: -90px;
+  z-index: 1;
+}
+
+.homeex:hover .hoverex {
+  display: block;
+}
+
+.homeex h3 {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #0b0d17;
+}
+
+@media screen and (max-width: 1115px) and (min-width: 991px) {
+  .homecon {
+    margin-top: 56px;
+    margin-left: 105px;
+    gap: 150px;
+  }
+
+  .homebk .dmainbk {
+    height: 700px;
+  }
+
+  .md-homebk img {
+    display: none;
+  }
+
+  .homewrite {
+    gap: 20px;
+  }
+
+  .homewrite h4 {
+    font-size: 20px;
+    letter-spacing: 3.38px;
+  }
+
+  .homewrite p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .homeex {
+    width: 242px;
+    height: 242px;
+  }
+
+  .hoverex {
+    width: 420px;
+    height: 420px;
+  }
+
+  .homeex h3 {
+    font-size: 32px;
+  }
+}
+
+/* Media query for tablets */
+@media screen and (max-width: 991px) and (min-width: 769px) {
+  .homebk .dmainbk {
+    height: 1100px;
+  }
+
+  .md-homebk img {
+    display: none;
+  }
+
+  .homecon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 106px auto;
+    align-items: center;
+    gap: 150px;
+  }
+
+  .homewrite {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .homewrite h4 {
+    font-size: 20px;
+    letter-spacing: 3.38px;
+  }
+
+  .homewrite p {
+    font-size: 16px;
+    text-align: center;
+    width: 444px;
+  }
+
+  .homeex {
+    width: 242px;
+    height: 242px;
+  }
+
+  .hoverex {
+    width: 420px;
+    height: 420px;
+  }
+
+  .homeex h3 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
+  .md-homebk {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+  }
+
+  .homebk .dmainbk {
+    display: none;
+  }
+
+  .md-homebk img {
+    display: flex;
+    width: 100%;
+    height: 1024px;
+  }
+
+  .homecon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 90px auto;
+    align-items: center;
+    gap: 120px;
+  }
+
+  .homewrite {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .homewrite h4 {
+    font-size: 20px;
+    letter-spacing: 3.38px;
+  }
+
+  .homewrite p {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    width: 444px;
+  }
+
+  .homeex {
+    width: 242px;
+    height: 242px;
+  }
+
+  .hoverex {
+    width: 420px;
+    height: 420px;
+  }
+
+  .homeex h3 {
+    font-size: 32px;
+  }
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 575px) and (min-width: 360px) {
+  .md-homebk {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+  }
+
+  .homebk .dmainbk {
+    display: none;
+  }
+
+  .md-homebk img {
+    display: flex;
+    width: 100%;
+    height: 770px;
+  }
+
+  .homecon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .homewrite {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .homewrite h4 {
+    font-size: 16px;
+    letter-spacing: 2.7px;
+  }
+
+  .homewrite h1 {
+    font-size: 80px;
+  }
+
+  .homewrite p {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    width: 327px;
+  }
+
+  .homeex {
+    width: 150px;
+    height: 150px;
+    margin-left: 0;
+  }
+
+  .hoverex {
+    width: 326.2px;
+    height: 326.2px;
+  }
+
+  .homeex h3 {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,428 @@
+.techcon {
+  position: relative;
+  z-index: 1;
+  margin-top: 76px;
+  margin-left: 155px;
+}
+
+.bktech {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.bktech img {
+  width: 100%;
+  height: 900px;
+}
+
+.picktech h4 {
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 4.72px;
+  color: #ffffff;
+  text-align: start;
+}
+
+.picktech span {
+  color: #d0d6f9;
+  opacity: 25%;
+}
+
+/* ======================================= */
+
+.techcarocon {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 150px;
+  width: 1044px;
+}
+
+.slidestechcon {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  transition: transform 1s ease-in-out;
+  overflow: hidden;
+}
+
+/* ========================================= */
+
+.slidetech {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1140px;
+  transition: transform 1s ease-in-out;
+  opacity: 0;
+}
+
+.slidetech.active {
+  opacity: 1;
+}
+
+.techbod {
+  text-align: start;
+  margin-top: 154px;
+}
+
+.techbod h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #d0d6f9;
+  margin-bottom: 15px;
+  letter-spacing: 2.7px;
+}
+
+.techbod h1 {
+  font-size: 56px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 27px;
+}
+
+.techbod p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #d0d6f9;
+  line-height: 32px;
+  padding-right: 125px;
+}
+
+/* ========================================= */
+
+/* ============================================= */
+
+.dottech {
+  position: absolute;
+  left: 0px;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.dotto {
+  width: 80px;
+  height: 80px;
+  background-color: none;
+  border: 1px solid #574d4d;
+  border-radius: 50%;
+  margin: auto;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dotto:hover {
+  border-color: #ffffff;
+}
+
+.dotto h3 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 22px;
+  color: #ffffff;
+}
+
+.dotto.active {
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+.dotto.active h3 {
+  color: #0b0d17;
+}
+
+@media screen and (max-width: 1115px) and (min-width: 991px) {
+  .techcon {
+    margin-left: 105px;
+  }
+
+  .techcarocon {
+    margin-left: 0px;
+    width: 950px;
+    margin-top: 50px;
+  }
+
+  .slidetech {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: center;
+    width: 950px;
+    gap: 100px;
+  }
+
+  .techbod {
+    text-align: center;
+  }
+
+  .techbod p {
+    padding-right: 0;
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .dottech {
+    left: 30%;
+    bottom: 300px;
+    flex-direction: row;
+  }
+
+  .techmemd img {
+    width: 100%;
+  }
+
+  .bktech img {
+    height: 1200px;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .techcon {
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+
+  .techcarocon {
+    margin-left: 0px;
+    width: 768px;
+    margin-top: 50px;
+    margin: 50px auto;
+  }
+
+  .slidetech {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: center;
+    width: 768px;
+    gap: 0px;
+  }
+
+  .picktech h4 {
+    font-size: 20px;
+    letter-spacing: 4.72px;
+    margin-left: 38.5px;
+  }
+
+  .techbod {
+    text-align: center;
+  }
+
+  .techbod p {
+    padding-right: 0;
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .dottech {
+    left: 35%;
+    bottom: 290px;
+    flex-direction: row;
+  }
+
+  .techmemd img {
+    width: 100%;
+  }
+
+  .bktech img {
+    height: 1280px;
+  }
+
+  .dotto {
+    width: 60px;
+    height: 60px;
+  }
+
+  .dotto h3 {
+    font-size: 24px;
+    margin-top: 18px;
+  }
+
+  .techbod h5 {
+    font-size: 16px;
+    letter-spacing: 2.7px;
+  }
+
+  .techbod h1 {
+    font-size: 40px;
+  }
+
+  .techbod p {
+    font-size: 16px;
+    line-height: 28px;
+    padding-right: 0px;
+    width: 458px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
+  .techcon {
+    margin-left: 0px;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 768px;
+  }
+
+  .techcarocon {
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 50px;
+    margin: 50px auto;
+  }
+
+  .slidetech {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: center;
+    max-width: 768px;
+    gap: 0px;
+  }
+
+  .picktech h4 {
+    font-size: 20px;
+    letter-spacing: 4.72px;
+    margin-left: 38.5px;
+  }
+
+  .techbod {
+    text-align: center;
+  }
+
+  .techbod p {
+    padding-right: 0;
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .dottech {
+    left: 35%;
+    bottom: 290px;
+    flex-direction: row;
+  }
+
+  .techmemd img {
+    width: 100%;
+  }
+
+  .bktech img {
+    height: 1024px;
+  }
+
+  .dotto {
+    width: 60px;
+    height: 60px;
+  }
+
+  .dotto h3 {
+    font-size: 24px;
+    margin-top: 18px;
+  }
+
+  .techbod h5 {
+    font-size: 16px;
+    letter-spacing: 2.7px;
+  }
+
+  .techbod h1 {
+    font-size: 40px;
+  }
+
+  .techbod p {
+    font-size: 16px;
+    line-height: 28px;
+    padding-right: 0px;
+    width: 458px;
+  }
+}
+@media screen and (max-width: 575px) and (min-width: 360px) {
+  .techcon {
+    margin: 50px auto;
+    width: 100%;
+    max-width: 375px;
+  }
+
+  .techcarocon {
+    margin-left: 0px;
+    width: 100%;
+    margin: 50px auto;
+  }
+
+  .slidetech {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    max-width: 375px;
+    gap: 0px;
+    text-align: center;
+  }
+
+  .picktech h4 {
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .techbod {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .techbod p {
+    padding-right: 0;
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .dottech {
+    left: 30%;
+    bottom: 250px;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .techmemd img {
+    display: none;
+  }
+
+  .bktech img {
+    height: 770px;
+  }
+
+  .dotto {
+    width: 40px;
+    height: 40px;
+  }
+
+  .dotto h3 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .techbod h5 {
+    font-size: 14px;
+    letter-spacing: 2.36px;
+  }
+
+  .techbod h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .techbod p {
+    font-size: 15px;
+    line-height: 25px;
+    padding-right: 0px;
+    width: 327px;
+  }
+}
